@@ -5,9 +5,126 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
+    <div class="max-w-5xl m-auto">
+      <div class="bg-[#1f2643] py-[13px]">
+        <a href="#">
+          <img src="https://picsum.photos/150/50" alt="" class="mx-auto">
+        </a>
+      </div>
+    <!-- <div class="bg-indigo-500 flex justify-around"> -->
+      <!-- <a class="py-2 hover:bg-red-400" href="/" data-navigo="">Trang chủ</a> -->
+      <!-- <a class="py-2 hover:bg-red-400" href="/about">Tuyển sinh</a> -->
+      <!-- <a class="py-2 hover:bg-red-400" href="/product">Trương trình đào tạo</a> -->
+      <!-- <a class="py-2 hover:bg-red-400" href="/product">Góc tuyển sinh</a> -->
+      <!-- <a class="py-2 hover:bg-red-400" href="/product">Tuyển dụng</a> -->
+      <!-- <div class="py-2">  -->
+        <!-- <input class="py-1" type="text"> -->
+        <!-- <button class="bg-blue-200 py-1 hover:bg-sky-500  ">Tìm kiếm</button> -->
+     <!-- </div> -->
+    <!-- </div> -->
+    
     <div id="app"></div>
-    <script type="module" src="./main.js"></script>
+    <!-- <footer> -->
+      <!-- <h2 class="bg-[#1f2643] text-center py-[13px] font-bold text-white">HIEPNX-PH15148</h2> -->
+   <!-- </footer> -->
+  </div>
+  
+    <!-- <div class="bg-red-500 mt-10">hhhh</div>
+    <div id="app"></div> -->
+    <!-- <div class="max-w-5xl m-auto  ">
+     <header>
+       
+        <div class="bg-[#1f2643] py-[13px]">
+          <a href="#">
+            <img src="https://picsum.photos/150/50" alt="" class="mx-auto">
+          </a>
+        </div>
+       <div class="bg-[#cc7800] flex justify-around  ">
+          <ul class="flex justify-around"> 
+            <li><a href="" class="block py-3 px-4 hover:bg-sky-700">Trang chủ</a></li>
+            <li><a href="" class="block py-3 px-4 hover:bg-sky-700">Tuyển sinh</a></li>
+            <li><a href="" class="block py-3 px-4 hover:bg-sky-700">Chương trình đào tạo</a></li>
+            <li><a href="" class="block py-3 px-4 hover:bg-sky-700">Góc sinh viên</a></li>
+            <li><a href="" class="block py-3 px-4 hover:bg-sky-700">Tuyển dụng</a></li>
+          </ul>
+          <div class="py-2"> 
+          <input class="py-1" type="text">
+          <button class="bg-blue-200 py-1 hover:bg-sky-500  ">Tìm kiếm</button>
+       </div>
+       </div>
+     </header>
+     <article class="article">
+      <div>
+      <a href="#"><img class="anh" src="./image/hiep1 (1).jpg" alt="" id="anh"></a>
+       <script>
+           var mangImg = [];
+           mangImg[0] = "./image/hiep1 (1).jpg"
+           mangImg[1] = "./image/hiep1 (1).jpg"
+           mangImg[2] = "./image/hiep1 (2).jpg"
+           mangImg[3] = "./image/hiep1 (2).jpg"
+           mangImg[4] = "./image/hiep1 (1).jpg"
+           var dem = 0;
+           var chay;
+           function auto() {
+               dem = dem + 1;
+               document.getElementById("anh").src = mangImg[dem];
+               if (dem == mangImg.length - 1) {
+                   dem = -1;
+               }
+               chay = setTimeout(auto, 2000);
+           }
+           window.onload = function () {
+               chay = setTimeout(auto, 2000)
+           }
+       </script>
+      </div>
+   </article>
+     <main class="py-3">
+        <h2 class="py-3 font-bold">Tin tức học tập</h2>
+        <div class="grid  grid-cols-3 gap-x-10 ">
+          <div class="news-item ">
+            <a href=""><img src="https://picsum.photos/200/200" alt="" class="mx-auto">
+            <h2 class="text-center text-amber-600 font-semibold">Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018 </h2></a>
+            <p  class="text-center">Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018 Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018 Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018 Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018</p>
+          </div>
+        <div class="news-item">
+          <a href=""><img src="https://picsum.photos/200/200" alt="" class="mx-auto" >
+          <h2 class="text-center text-amber-600 font-semibold">Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018 </h2></a>
+          <p  class="text-center">Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018 Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018 Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018 Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018</p>
+      </div>
+      <div class="news-item">
+        <a href=""><img src="https://picsum.photos/200/200" alt="" class="mx-auto">
+       <h2 class="text-center text-amber-600 font-semibold">Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018 </h2></a>
+       <p  class="text-center">Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018 Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018 Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018 Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018</p>
+      </div>
+       </div>
+       <h2 class="py-3 font-bold">Hoạt động sinh viên</h2>
+       <div class="grid  grid-cols-3 gap-x-10 ">
+      <div class="news-item ">
+        <a href=""><img src="https://picsum.photos/200/200" alt="" class="mx-auto">
+        <h2 class="text-center text-amber-600 font-semibold">Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018 </h2></a>
+        <p  class="text-center">Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018 Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018 Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018 Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018</p>
+      </div>
+      <div class="news-item ">
+        <a href=""><img src="https://picsum.photos/200/200" alt="" class="mx-auto">
+        <h2 class="text-center text-amber-600 font-semibold">Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018 </h2></a>
+        <p  class="text-center">Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018 Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018 Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018 Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018</p>
+      </div>
+      <div class="news-item ">
+        <a href=""><img src="https://picsum.photos/200/200" alt="" class="mx-auto">
+        <h2 class="text-center text-amber-600 font-semibold">Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018 </h2></a>
+        <p  class="text-center">Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018 Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018 Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018 Vinh danh 295 học viên FPT Polytechnic học kì Spring 2018</p>
+      </div>
+       </div>
+       
+     </main>
+     <footer>
+        <h2 class="bg-[#1f2643] text-center py-[13px] font-bold text-white">HIEPNX-PH15148</h2>
+     </footer>
+    </div>  -->
+    <script type="module" src="./src/main.js"></script>
   </body>
 </html>
